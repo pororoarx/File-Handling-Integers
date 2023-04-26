@@ -6,13 +6,13 @@
 # Create a function called process
 def process():
     # open numbers.txt (read), even.txt (write), odd.txt (write)
-
+    with open("numbers.txt") as file_1, open("even.txt", "w") as even_file, open("odd.txt", "w") as odd_file:
         # Loop through each line in numbers.txt
-
+        for line in file_1:
             # Convert the line into integer 
-
+            number = int(line.strip())
             # Print number to the console to check if the code is working
-
+            print(number)
             # Check if the number is even or odd
 
                 # If even, write it to even.txt
