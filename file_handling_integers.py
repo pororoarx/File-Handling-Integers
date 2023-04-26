@@ -4,7 +4,7 @@
 # Start
 
 # Create a function called process
-
+def process():
     # open numbers.txt (read), even.txt (write), odd.txt (write)
 
         # Loop through each line in numbers.txt
